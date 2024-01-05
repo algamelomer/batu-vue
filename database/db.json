@@ -1,0 +1,32 @@
+{
+    "home-cards": [{
+            "id": 1,
+            "icon": "fa-users",
+            "title": "How to apply",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed a ccumsan quam vitae est varius "
+        },
+        {
+            "id": 2,
+            "icon": "fa-users",
+            "title": "publication",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed a ccumsan quam vitae est varius "
+        },
+        {
+            "id": 3,
+            "icon": "fa-users",
+            "title": "FAQs",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed a ccumsan quam vitae est varius "
+        }
+    ],
+    "unlock": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam qui  s massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio."
+    ],
+    "Achievements": [{
+        "students": 2245,
+        "clubs": 24,
+        "programs": 264,
+        "faculties": 11,
+        "title": "Fostering Visionaries Igniting Curiosity",
+        "description": "Welcome to Our Cutting-Edge Technology University."
+    }]
+}
