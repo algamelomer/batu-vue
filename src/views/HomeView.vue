@@ -5,6 +5,8 @@
     <Unlock :api="api"/>
     <Achievements :api="api"/>
     <VideoTour :api="api"/>
+    <News :api="api"/>
+    <Learnmore :api="api"/>
 
   </div>
 </template>
@@ -16,6 +18,8 @@ import {api} from '../api-config';
 import Unlock from '@/components/Home/Unlock.vue';
 import Achievements from '@/components/Home/Achievements.vue';
 import VideoTour from '@/components/Home/VideoTour.vue';
+import News from '@/components/Home/News.vue';
+import Learnmore from '@/components/Home/Learnmore.vue';
 
 
 export default {
@@ -25,7 +29,9 @@ export default {
     Info,
     Unlock,
     Achievements,
-    VideoTour
+    VideoTour,
+    News,
+    Learnmore
 },
   data() {
     return {

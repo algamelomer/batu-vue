@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-96 relative mb-12" @click="handleClick" @dblclick="handleDoubleClick">
+  <div class="w-full h-96 relative mb-24" @click="handleClick" @dblclick="handleDoubleClick">
     <div class="w-full h-full absolute z-10 bg-video_cover flex" ref="playing">
       <div class="flex items-center gap-4 m-auto">
         <button
@@ -16,9 +16,8 @@
            @mozfullscreenchange="onFullScreenChange" @fullscreenchange="onFullScreenChange"
            @dblclick="handleDoubleClick" @error="onError"
            src="@/assets/batu.mp4" class="w-full h-full object-cover" preload="auto"></video>
-    <div class="controls">
-      <button @click="toggleFullScreen">Toggle Full Screen</button>
-      <!-- Additional controls can be added here -->
+    <div class="absolute bottom-0 left-0 w-full bg-video_slide p-2 flex justify-between items-center">
+      <button @click="toggleFullScreen" class="text-white bg-transparent border-0 cursor-pointer"><font-awesome-icon icon="expand"></font-awesome-icon></button>
     </div>
   </div>
 </template>
@@ -101,31 +100,5 @@ export default {
 </script>
 
 <style>
-  .controls {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .controls button {
-    color: white;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-
-  .controls input {
-    width: 80%;
-    margin: 0 10px;
-  }
-
-  .controls span {
-    color: white;
-  }
+  
 </style>

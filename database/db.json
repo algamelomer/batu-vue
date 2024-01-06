@@ -28,5 +28,53 @@
         "faculties": 11,
         "title": "Fostering Visionaries Igniting Curiosity",
         "description": "Welcome to Our Cutting-Edge Technology University."
+    }],
+    "home-news": [{
+        "title": "BATU News",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed a ccumsan quam vitae est varius ",
+        "cards": [{
+                "id": 1,
+                "content": "president of Egypt visits BATU",
+                "link": "#"
+            },
+            {
+                "id": 2,
+                "content": "BATU sets an internship protocol",
+                "link": "#"
+            },
+            {
+                "id": 3,
+                "content": "BATU is ready for new comers",
+                "link": "#"
+            }
+        ]
+    }],
+    "home-learnmore": [{
+        "title": "Borg Al Arab Technological University",
+        "link": "#"
+    }],
+    "app": [{
+        "Copyright": "Copyright © 2023 IT_Club.",
+        "social": [{
+                "id": 1,
+                "icon": "facebook",
+                "link": "#"
+            },
+            {
+                "id": 2,
+                "icon": "instagram",
+                "link": "#"
+            },
+            {
+                "id": 3,
+                "icon": "x-twitter",
+                "link": "#"
+            },
+            {
+                "id": 4,
+                "icon": "youtube",
+                "link": "#"
+            }
+        ]
     }]
 }
