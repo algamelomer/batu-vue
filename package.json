@@ -8,7 +8,7 @@
         "build": "vite build",
         "preview": "vite preview",
         "json-server": "json-server --watch database/db.json --port 3001",
-        "serve": "concurrently \"npm run json-server\" \"cd dist && serve -p 8080\""
+        "serve": "concurrently \"npm run json-server\" \"cd dist && serve\""
 
     },
 
