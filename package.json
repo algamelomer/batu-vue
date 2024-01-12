@@ -16,8 +16,10 @@
         "@fortawesome/free-solid-svg-icons": "^6.5.1",
         "@fortawesome/vue-fontawesome": "^3.0.5",
         "@headlessui/vue": "^1.7.16",
+        "axios": "^1.6.5",
         "swiper": "^11.0.5",
         "vue": "^3.3.11",
+        "vue-countup-v3": "^1.4.0",
         "vue-router": "^4.2.5"
     },
     "devDependencies": {

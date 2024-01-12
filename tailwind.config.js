@@ -1,3 +1,5 @@
+import { comment } from 'postcss';
+
 /** @type {import('tailwindcss').Config} */
 export default {
     content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
@@ -13,6 +15,7 @@ export default {
                 video_cover_hover: "rgba(79, 179, 179, 1);",
                 video_slide: "rgba(0, 0, 0, 0.5)",
                 footer: "#263238",
+                comment: "#D9D9D9",
             },
             width: {
                 '38rem': '38rem',

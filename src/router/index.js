@@ -4,6 +4,7 @@ import contact from '../views/Contact-us.vue'
 import Facilities from '../views/Facilities.vue'
 import Gallary from '../views/Gallary.vue'
 import Media from '../views/Media.vue'
+import Apply from '../views/Apply.vue'
 
 const router = createRouter({
     history: createWebHistory(
@@ -30,6 +31,11 @@ const router = createRouter({
             path: '/Media',
             name: 'Media',
             component: Media
+        },
+        {
+            path: '/Apply',
+            name: 'Apply',
+            component: Apply
         },
         {
             path: '/about',

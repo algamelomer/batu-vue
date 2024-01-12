@@ -27,7 +27,7 @@
     },
     methods: {
       getCardImage(card) {
-        return `public/${card}.jpeg`;
+        return `/${card}.jpeg`;
       },
     },
     mounted() {

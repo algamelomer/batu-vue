@@ -14,7 +14,7 @@
     </div>
     <video ref="videoPlayer" @play="onPlay" @pause="onPause" @ended="onEnded" @webkitfullscreenchange="onFullScreenChange"
            @mozfullscreenchange="onFullScreenChange" @fullscreenchange="onFullScreenChange"
-           @dblclick="handleDoubleClick" @error="onError"
+           @dblclick="handleDoubleClick" @error="onError" loading="lazy"
            src="@/assets/batu.mp4" class="w-full h-full object-cover" preload="auto"></video>
     <div class="absolute bottom-0 left-0 w-full bg-video_slide p-2 flex justify-between items-center">
       <button @click="toggleFullScreen" class="text-white bg-transparent border-0 cursor-pointer"><font-awesome-icon icon="expand"></font-awesome-icon></button>
